@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./BookMyShow.css">
+</head>
+<body>
+    <div class="bms">
+        <div class="navbar">
+            <div class="logo">
+                <img  src="./Projects/bookmyshow.png"  alt="">
+            </div>
+            <div class="search">
+                    <img id="searchicon" src="data:image/png;base64,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" alt=""><input placeholder="Search for Movies Events Plays sports and Activities" type="text"></div>
+        <div class="options">
+            <select name="" id="">
+                <option value=""> Banglore</option>
+                <option value=""> Chennai</option>
+                <option value=""> Delhi</option>
+            </select>
+            <button>Sign in</button>
+        </div>
+    </div>
+    </div>
+    <div class="nav">
+        <div class="nav1">
+            <a href="">Movies</a>
+            <a href=""> Streams</a>
+            <a href=""> Events</a>
+            <a href=""> Plays</a>
+            <a href="">Sports</a>
+            <a href="">Activities</a>
+        </div>
+        <div class="nav2">
+            <a href="">List Your Shows</a>
+            <a href=""> Coorporates</a>
+            <a href=""> Offers</a>
+            <a href=""> GiftCards</a>
+        </div>
+    </div>
+    <div class="section1">
+        <marquee behavior="" direction="">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1702286518798_christmasweb.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1700994295451_web.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1701423585546_lollapaloozadesktop.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1702890940663_heinekenweb.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1702972873145_tnrw.jpg" alt="">
+        </marquee>
+    </div>
+    <div class="section2">
+        <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1702466964871_webslug.jpg" alt="">
+    </div>
+    <div class="section3">
+        <h1>Recommeded Movies</h1>
+        <a href=""> See ALL</a>
+    </div>
+    <div class="section4">
+        <div class="sub1">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS44TSBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00301886-swudhfslvc-portrait.jpg" alt="">
+            <h2>Salaar: Cease Fire - Part 1</h2>
+            <span>Action/Thriller</span>
+        </div>
+        <div class="sub1">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny42LzEwICA3My40SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00326964-fcvlqaenjc-portrait.jpg" alt="">
+            <h2>Dunki</h2>
+            <span>Comedy</span>
+        </div>
+        <div class="sub1">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgNC42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00321161-jfwtmrbcpy-portrait.jpg" alt="">
+            <h2>Aquaman and the lost Kingdom</h2>
+            <span>Action/Adventure/ Fantasy/Superhero</span>
+        </div>
+        <div class="sub1">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICA1MjUuMUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00311762-dlhgvveece-portrait.jpg" alt="">
+            <h2>Animal</h2>
+            <span>Action/Crime/Drama</span></div>
+            <div class="sub1">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4xLzEwICA2LjRLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00379301-esmzjmyvaj-portrait.jpg" alt="">
+                <h2>Neru</h2>
+                <span>Drama/Thriller</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="section5">
+            
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" alt="">
+        </div>
+    </div>
+    <div class="section6">
+        <h2> The Best of Live Events</h2>
+    </div>
+    <div class="section7">
+        <div class="sub1">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTA1KyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-zone-collection-202211140440.png" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTEwKyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NzUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/food-drinks-collection-202211140440.png" alt="">
+        </div>
+    </div>
+    <div class="section8">
+        <img src="./BMS.png" alt="">
+    </div>
+</body>
+</html
